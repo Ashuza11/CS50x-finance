@@ -1,6 +1,6 @@
 ## cs50 Finance 
 This repository Is an overview of  my solutions to Harvard 
-University's CS50 Finance Problem set
+University's CS50 Finance Problem set.
 
 ![Screen shot](Finance.png)
 
@@ -19,7 +19,8 @@ Complete the implementation of register in such a way that it allows a user to r
   - Require that a user input a username, implemented as a text field whose name is username. Render an apology if the user’s input is blank or the username already exists.
   - Require that a user input a password, implemented as a text field whose name is password, and then that same password again, implemented as a text field whose name is confirmation. Render an apology if either input is blank or the passwords do not match.
   - Submit the user’s input via POST to /register.
-  - INSERT the new user into users, storing a hash of the user’s password, not the password itself. Hash the user’s password with <a href='https://werkzeug.palletsprojects.com/en/0.14.x/utils/#werkzeug.security.generate_password_hash.*'>generate_password_hash<a>Odds are you’ll want to create a new template (e.g., register.html) that’s quite similar to login.html.
+  - INSERT the new user into users, storing a hash of the user’s password, not the password itself. Hash the user’s password with <a href='https://werkzeug.palletsprojects.com/en/0.14.x/utils/#werkzeug.security.generate_password_hash.*'>generate_password_hash<a>
+  - Odds are you’ll want to create a new template (e.g., register.html) that’s quite similar to login.html.
 
 Once you’ve implemented register correctly, you should be able to register for an account and log in (since login and logout already work)! And you should be able to see your rows via phpLiteAdmin or sqlite3.
 
@@ -85,8 +86,8 @@ Please! don't just copy the code mindlessly without trying to solve the problems
 
 ##  How to Take this Course
 
-Even if you are not a student at Harvard, you can take this course for free via this OpenCourseWare:<a href='https://www.edx.org/'>edX</a>
+Even if you are not a student at Harvard, you can take this course for free via this OpenCourseWare:<a href='https://www.edx.org/'> edX</a>
 If you’d like to submit the course’s problem sets and final project for feedback, be sure to create an edX account, if you haven’t already. 
-If interested in a verified certificate from edX, enroll at <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science">cs50.edx.org</a>instead.
+If interested in a verified certificate from edX, enroll at <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science">cs50.edx.org</a> instead.
 
 Also You can find the specs for all problem sets as well as the course materials  <a href='https://cs50.harvard.edu/x/2020/'>here</a> or read carefully the assignments specifications above-mentioned.
